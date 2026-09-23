@@ -1,4 +1,4 @@
-import Arrow from "../../assets/icon/whiteArrow.png"
+import Arrow from "../../assets/icon/whiteArrow.webp"
 import { useContact } from "../../Context/Context"
 
 const SupplyChainBanner = () => {
@@ -26,7 +26,7 @@ const SupplyChainBanner = () => {
         <button
           onClick={openContact}
           className="bg-[#D32F0F] cursor-pointer text-white font-semibold px-6 py-3   text-base  transition-colors duration-200 inline-flex items-center justify-center">
-          Get in Touch  <span className="ml-2"><img src={Arrow} className='w-7' alt="" /></span>
+          Get in Touch  <span className="ml-2"><img src={Arrow} className='w-7' alt=""  loading="lazy" /></span>
         </button>
       </div>
     </section>

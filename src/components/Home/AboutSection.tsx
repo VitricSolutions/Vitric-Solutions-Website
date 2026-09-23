@@ -1,7 +1,7 @@
-import Mind from "../../assets/icon/Group 56.png";
-import code from "../../assets/icon/code.png";
-import collab from "../../assets/icon/collabrate.png";
-import global from "../../assets/icon/global.png";
+import Mind from "../../assets/icon/Group 56.webp";
+import code from "../../assets/icon/code.webp";
+import collab from "../../assets/icon/collabrate.webp";
+import global from "../../assets/icon/global.webp";
 import { useState } from "react";
 
 const data = [
@@ -61,7 +61,7 @@ const AboutVITric = () => {
                       ${isActive ? "bg-white bg-opacity-20" : "bg-gray-100"}
                     `}
                   >
-                    <img src={item.icon} alt={item.title} />
+                    <img src={item.icon} alt={item.title}  loading="lazy" />
                   </div>
                 </div>
 

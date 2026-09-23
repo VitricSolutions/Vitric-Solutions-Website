@@ -117,7 +117,7 @@ const KinaxisHero = () => {
                             {/* Inner shine */}
                             <div className="absolute top-0 inset-x-0 h-1/2 bg-gradient-to-b from-white to-transparent opacity-80"></div>
 
-                            {/* <img src={supplyChainIcon} className="w-10 h-10 mb-2 object-contain opacity-80" alt="" /> */}
+                            {/* <img src={supplyChainIcon} className="w-10 h-10 mb-2 object-contain opacity-80" alt=""  loading="lazy" /> */}
                             <span className="text-[#1D1D1D] font-bold text-lg leading-tight text-center relative z-10">
                                 Supply Chain <br /> <span className="text-[#D32F0F]">Evolution</span>
                             </span>

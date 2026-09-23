@@ -1,4 +1,4 @@
-import send from "../../assets/icon/fluent_send-28-filled.png";
+import send from "../../assets/icon/fluent_send-28-filled.webp";
 const BusinessSection = () => {
   return (
     <>
@@ -30,15 +30,15 @@ const BusinessSection = () => {
           </h1>
 
           <div className=" w-full flex items-center justify-start gap-x-2 mt-5 leading-0 lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1>SCM Platform Solution Advisory</h1>
           </div>
           <div className="font-[lato] w-full  flex items-center justify-start gap-x-2  lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1>Kinaxis Maestro - Health Check</h1>
           </div>
           <div className="font-[lato] w-full  flex items-center justify-start gap-x-2 lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1>SAP BTP - Integration</h1>
           </div>
 
@@ -58,11 +58,11 @@ const BusinessSection = () => {
             experience — bridging theory and practical execution.
           </h1>
           <div className="font-[lato]  w-full  flex items-center justify-start gap-x-2 mt-5 lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1>SAP BTP Trainings</h1>
           </div>
           <div className=" font-[lato] w-full  flex items-center justify-start gap-x-2 lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1>Kinaxis Maestro Trainings</h1>
           </div>
 
@@ -85,19 +85,19 @@ const BusinessSection = () => {
             for past 10 years. Market Profiles Across Tech Stack 10,000+
           </h1>
           <div className="font-[lato] w-full  flex items-center justify-start gap-x-2 mt-5 lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1>Subject Matter Experts - SCM</h1>
           </div>
           <div className="font-[lato] w-full  flex items-center justify-start gap-x-2 lg:text-[95%] font-normal  text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1 className="leading-8">Solution Architects</h1>
           </div>
           <div className="font-[lato] w-full  flex items-center justify-start gap-x-2 lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1 className="leading-8"> Integration Architects</h1>
           </div>
           <div className="font-[lato] w-full  flex items-center justify-start gap-x-2 lg:text-[95%] font-normal text-white">
-            <img src={send} className="w-4 h-4" alt="" />
+            <img src={send} className="w-4 h-4" alt=""  loading="lazy" />
             <h1 className="leading-8">Implementation Consultants</h1>
           </div>
           <a

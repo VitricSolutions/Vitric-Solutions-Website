@@ -1,4 +1,4 @@
-import vitric from "../../assets/icon/Vitric_logo.png";
+import vitric from "../../assets/icon/Vitric_logo.webp";
 import Handshake from "../../assets/icon/partnership-handshake.svg";
 
 const PartnerHighlightRibbon = () => {
@@ -30,21 +30,21 @@ const PartnerHighlightRibbon = () => {
                     <div className="flex items-center gap-6 md:gap-10 bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-md shadow-2xl transform hover:scale-105 transition-transform duration-500 w-full md:w-auto justify-center">
                         {/* Vitric */}
                         <div className="flex flex-col items-center gap-2 bg-white p-3 pb-1 rounded-xl">
-                            <img src={vitric} alt="Vitric" className="h-8 md:h-10 object-contain drop-shadow-lg scale-90" />
+                            <img src={vitric} alt="Vitric" className="h-8 md:h-10 object-contain drop-shadow-lg scale-90"  loading="lazy" />
                         </div>
 
                         {/* Connection */}
                         <div className="flex flex-col items-center justify-center">
                             <div className="h-px w-8 md:w-12 bg-gradient-to-r from-transparent via-[#D32F0F] to-transparent"></div>
 
-                            <img src={Handshake} alt="Handshake" className="w-9 h-9 text-[#D32F0F] my-2 drop-shadow-[0_0_10px_rgba(211,47,15,0.8)]" />
+                            <img src={Handshake} alt="Handshake" className="w-9 h-9 text-[#D32F0F] my-2 drop-shadow-[0_0_10px_rgba(211,47,15,0.8)]"  loading="lazy" />
                             <div className="h-px w-8 md:w-12 bg-gradient-to-r from-transparent via-[#D32F0F] to-transparent"></div>
 
                         </div>
 
                         {/* Kinaxis */}
                         <div className="flex flex-col items-center gap-2 bg-white px-4 py-3 rounded-xl shadow-inner">
-                            <img src="https://www.kinaxis.com/themes/custom/ka/src/images/logo.svg" alt="Kinaxis" className="w-20 h-6 md:h-8 object-contain scale-110 md:scale-125" />
+                            <img src="https://www.kinaxis.com/themes/custom/ka/src/images/logo.svg" alt="Kinaxis" className="w-20 h-6 md:h-8 object-contain scale-110 md:scale-125"  loading="lazy" />
                         </div>
                     </div>
 

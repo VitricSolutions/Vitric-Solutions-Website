@@ -1,6 +1,6 @@
-import Rocket from "../../assets/icon/rocket.png";
-import LeftArrow from "../../assets/icon/left.png";
-import ComingSoonBg from "../../assets/icon/comming_Soon.png";
+import Rocket from "../../assets/icon/rocket.webp";
+import LeftArrow from "../../assets/icon/left.webp";
+import ComingSoonBg from "../../assets/icon/comming_Soon.webp";
 import Header from "../Header/Header";
 
 export default function ComingSoon() {
@@ -74,7 +74,7 @@ export default function ComingSoon() {
             {/* Logo/Brand placeholder */}
             <div className="mb-12">
               <div className="mx-auto bg-white/20 rounded-full flex items-center justify-center mb-4">
-                <img src={Rocket} className="w-40 h-40" alt="" />
+                <img src={Rocket} className="w-40 h-40" alt=""  loading="lazy" />
               </div>
             </div>
 
@@ -93,7 +93,7 @@ export default function ComingSoon() {
             {/* CTA Button */}
             <a href="/" className="flex gap-4">
               <button className="flex items-center justify-center gap-4 mt-5 bg-[#CD2E0F] hover:bg-red-700 text-white px-8 py-3 rounded-2xl text-lg transition duration-300 transform shadow-[0_0_15px_3px_rgba(255,255,255,0.2)]">
-                <img src={LeftArrow} className="w-7" alt="" />
+                <img src={LeftArrow} className="w-7" alt=""  loading="lazy" />
                 <span>Back to Home</span>
               </button>
             </a>

@@ -1,4 +1,4 @@
-import earthMap from "../../assets/icon/earth.png"; // Using earth image from index.css reference if available
+import earthMap from "../../assets/icon/earth.webp"; // Using earth image from index.css reference if available
 
 // If earth.png is a background image class .earth, I can usage that class or import it.
 // I'll try to import it, assuming it's in assets/icon/ based on CSS.
@@ -41,7 +41,7 @@ const GlobalPresence = () => {
                                     {/* Simple icon placeholder */}
                                     <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-[#D32F0F]">
                                         This is a placeholder icon
-                                        {/* <img src={globalIcon} className="w-4" alt="" /> */}
+                                        {/* <img src={globalIcon} className="w-4" alt=""  loading="lazy" /> */}
                                     </div>
                                     {ind}
                                 </div>

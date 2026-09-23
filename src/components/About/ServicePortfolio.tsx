@@ -1,7 +1,7 @@
-import dedicated from "../../assets/images/aboutUs/Dedicated.png";
-import flexible from "../../assets/images/aboutUs/Flexible.png";
-import niche from "../../assets/images/aboutUs/Niche.png";
-import rapid from "../../assets/images/aboutUs/Rapid.png";
+import dedicated from "../../assets/images/aboutUs/Dedicated.webp";
+import flexible from "../../assets/images/aboutUs/Flexible.webp";
+import niche from "../../assets/images/aboutUs/Niche.webp";
+import rapid from "../../assets/images/aboutUs/Rapid.webp";
 
 import sap from "../../assets/images/aboutUs/Sap Solution.svg";
 import kinaxis from "../../assets/images/aboutUs/Kinaxis.svg";
@@ -77,7 +77,7 @@ const ServicePortfolio = () => {
 
                                     <div className="relative z-10">
                                         <div className="w-14 h-14 bg-white rounded-lg shadow-sm flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform duration-300 border border-gray-100">
-                                            <img src={service.icon} alt={service.title} />
+                                            <img src={service.icon} alt={service.title}  loading="lazy" />
                                         </div>
                                         <h4 className="text-xl font-bold text-[#1D1D1D] mb-3 group-hover:text-[#D32F0F] transition-colors">{service.title}</h4>
                                         <p className="text-gray-600 text-[15px] leading-relaxed font-[Lato]">
@@ -139,7 +139,7 @@ const ServicePortfolio = () => {
                             <div key={index} className="bg-white rounded-xl p-6 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group">
                                 <div className="mb-4">
                                     <div className="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center group-hover:bg-[#D32F0F]/10 transition-colors">
-                                        <img src={item.icon} alt={item.title} className="w-6 h-6 object-contain" />
+                                        <img src={item.icon} alt={item.title} className="w-6 h-6 object-contain"  loading="lazy" />
                                     </div>
                                 </div>
                                 <h4 className="text-lg font-bold text-[#1D1D1D] mb-2">{item.title}</h4>

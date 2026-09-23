@@ -86,7 +86,7 @@ const WhyVitricSap = () => {
                             <div className="relative transform translate-z-10">
                                 <div className="flex items-center gap-4 mb-8">
                                     <span className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-2xl">
-                                        <img className="w-8 h-8 brightness-0 invert" src={globe} alt="Global" />
+                                        <img className="w-8 h-8 brightness-0 invert" src={globe} alt="Global"  loading="lazy" />
                                     </span>
                                     <h3 className="text-2xl font-bold">Global Talent Ecosystem</h3>
                                 </div>

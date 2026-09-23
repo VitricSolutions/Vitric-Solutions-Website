@@ -1,5 +1,5 @@
 
-import img1 from "../../assets/images/aboutUs/Who_we_are.jpg";
+import img1 from "../../assets/images/aboutUs/Who_we_are.webp";
 
 const WhoWeAre = () => {
 
@@ -53,7 +53,7 @@ const WhoWeAre = () => {
                             src={img1}
                             alt="Who We Are"
                             className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
-                        />
+                         loading="lazy" />
                         {/* Dark Gradient Overlay for text readability on image if needed, or just style */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
                     </div>

@@ -114,7 +114,7 @@ const CompanySection = () => {
                                 {typeof item.icon === 'string' && item.icon.length < 5 ? (
                                     <span>{item.icon}</span>
                                 ) : (
-                                    <img src={item.icon} alt={item.title} className="w-12 h-12 object-contain" />
+                                    <img src={item.icon} alt={item.title} className="w-12 h-12 object-contain"  loading="lazy" />
                                 )}
                             </div>
 

@@ -1,13 +1,13 @@
 import linkedin from "../../assets/images/aboutUs/LinkedIn.svg";
 
-import akansha from "../../assets/images/aboutUs/leadership/Akanksha_Vaidya-removebg.png";
-import mukund from "../../assets/images/aboutUs/leadership/Mukund_Sangli.jpg";
-import loknath from "../../assets/images/aboutUs/leadership/Loknath Rao.png";
-import parag from "../../assets/images/aboutUs/leadership/Parag1.png";
-import sarang from "../../assets/images/aboutUs/leadership/Sarang.jpeg";
-import sawani from "../../assets/images/aboutUs/leadership/Sawani.jpg";
-import anish from "../../assets/images/aboutUs/leadership/Anish_Ashirgade.jpg";
-import giridharan from "../../assets/images/aboutUs/leadership/Giridharan_Somaskandan.jpg";
+import akansha from "../../assets/images/aboutUs/leadership/Akanksha_Vaidya-removebg.webp";
+import mukund from "../../assets/images/aboutUs/leadership/Mukund_Sangli.webp";
+import loknath from "../../assets/images/aboutUs/leadership/Loknath Rao.webp";
+import parag from "../../assets/images/aboutUs/leadership/Parag1.webp";
+import sarang from "../../assets/images/aboutUs/leadership/Sarang.webp";
+import sawani from "../../assets/images/aboutUs/leadership/Sawani.webp";
+import anish from "../../assets/images/aboutUs/leadership/Anish_Ashirgade.webp";
+import giridharan from "../../assets/images/aboutUs/leadership/Giridharan_Somaskandan.webp";
 
 interface LeaderProps {
     name: string;
@@ -24,7 +24,7 @@ const LeaderCard = ({ name, designation, bio, focusTitle, focusContent, linkedin
         {/* Image Section */}
         <div className="w-full md:w-56 h-64 md:h-auto bg-gray-200 relative flex-shrink-0">
             {image ? (
-                <img src={image} alt={name} className="w-full h-full object-cover" />
+                <img src={image} alt={name} className="w-full h-full object-cover"  loading="lazy" />
             ) : (
                 <div className="w-full h-full flex items-center justify-center bg-gray-300 text-gray-500">
                     <span className="text-4xl opacity-50 font-bold">{name.charAt(0)}{name.split(' ')[1]?.charAt(0)}</span>
@@ -32,7 +32,7 @@ const LeaderCard = ({ name, designation, bio, focusTitle, focusContent, linkedin
             )}
             {linkedinUrl && (
                 <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="absolute bottom-3 right-3 bg-white p-1.5 rounded-sm hover:bg-[#0077B5] hover:text-white transition-colors shadow-sm">
-                    <img src={linkedin} alt="LinkedIn" className="w-5 h-5" />
+                    <img src={linkedin} alt="LinkedIn" className="w-5 h-5"  loading="lazy" />
                 </a>
             )}
         </div>

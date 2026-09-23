@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { X, ArrowRight, Zap, Target, Globe2 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import vitric from "../../assets/icon/Vitric_logo.png";
-import kinaxisLogo from "../../assets/Kinaxis_Logo_Single_Red.png";
+import vitric from "../../assets/icon/Vitric_logo.webp";
+import kinaxisLogo from "../../assets/Kinaxis_Logo_Single_Red.webp";
 
 const PartnerAnnouncementPopup = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -68,7 +68,7 @@ const PartnerAnnouncementPopup = () => {
 
                         {/* Vitric Logo Plate */}
                         <div className="bg-white p-2.5 rounded-2xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.3)] w-3/4 flex justify-center transform hover:-translate-y-2 transition-transform duration-500">
-                            <img src={vitric} alt="Vitric" className="h-10 object-contain drop-shadow-lg" />
+                            <img src={vitric} alt="Vitric" className="h-10 object-contain drop-shadow-lg"  loading="lazy" />
                         </div>
 
                         {/* Connecting Element */}
@@ -80,7 +80,7 @@ const PartnerAnnouncementPopup = () => {
 
                         {/* Kinaxis Logo Plate */}
                         <div className="bg-white p-2.5 rounded-2xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.3)] w-3/4 flex justify-center transform hover:-translate-y-2 transition-transform duration-500">
-                            <img src={kinaxisLogo} alt="Kinaxis" className="h-14 sm:h-20 object-contain" />
+                            <img src={kinaxisLogo} alt="Kinaxis" className="h-14 sm:h-20 object-contain"  loading="lazy" />
                         </div>
 
                     </div>

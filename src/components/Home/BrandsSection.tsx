@@ -1,28 +1,28 @@
-import Deloitte from "../../assets/icon/1.png";
-import q from "../../assets/icon/2.png";
-import w from "../../assets/icon/3.png";
-import e from "../../assets/icon/4.png";
-import r from "../../assets/icon/5.png";
-import t from "../../assets/icon/6.png";
-import y from "../../assets/icon/7.png";
-import u from "../../assets/icon/8.png";
-import i from "../../assets/icon/9.png";
-import o from "../../assets/icon/10.png";
-import p from "../../assets/icon/11.png";
-import a from "../../assets/icon/12.png";
-import s from "../../assets/icon/13.png";
-import d from "../../assets/icon/14.png";
-import f from "../../assets/icon/15.png";
-import g from "../../assets/icon/16.png";
-import h from "../../assets/icon/17.png";
-import j from "../../assets/icon/18.png";
-import k from "../../assets/icon/19.png";
-import z from "../../assets/icon/20.png";
-import x from "../../assets/icon/21.png";
-import c from "../../assets/icon/22.png";
-import v from "../../assets/icon/23.png";
-import b from "../../assets/icon/24.png";
-import n from "../../assets/icon/25.png";
+import Deloitte from "../../assets/icon/1.webp";
+import q from "../../assets/icon/2.webp";
+import w from "../../assets/icon/3.webp";
+import e from "../../assets/icon/4.webp";
+import r from "../../assets/icon/5.webp";
+import t from "../../assets/icon/6.webp";
+import y from "../../assets/icon/7.webp";
+import u from "../../assets/icon/8.webp";
+import i from "../../assets/icon/9.webp";
+import o from "../../assets/icon/10.webp";
+import p from "../../assets/icon/11.webp";
+import a from "../../assets/icon/12.webp";
+import s from "../../assets/icon/13.webp";
+import d from "../../assets/icon/14.webp";
+import f from "../../assets/icon/15.webp";
+import g from "../../assets/icon/16.webp";
+import h from "../../assets/icon/17.webp";
+import j from "../../assets/icon/18.webp";
+import k from "../../assets/icon/19.webp";
+import z from "../../assets/icon/20.webp";
+import x from "../../assets/icon/21.webp";
+import c from "../../assets/icon/22.webp";
+import v from "../../assets/icon/23.webp";
+import b from "../../assets/icon/24.webp";
+import n from "../../assets/icon/25.webp";
 
 const brand = [
   Deloitte,
@@ -102,7 +102,7 @@ const BrandsSection = () => {
             src={item}
             className="max-w-full max-h-full object-contain"
             alt=""
-          />
+           loading="lazy" />
         </div>
       ))}
     </div>
@@ -114,7 +114,7 @@ const BrandsSection = () => {
         <div className="hidden lg:flex w-full rounded-2xl items-center justify-center gap-x-25 gap-y-5 flex-wrap ">
           {brand.map((item, index) => (
             <div key={index} className="w-40 h-20 flex items-center justify-center">
-              <img src={item} className="w-full h-full object-cover" alt="" />
+              <img src={item} className="w-full h-full object-cover" alt=""  loading="lazy" />
             </div>
           ))}
         </div>

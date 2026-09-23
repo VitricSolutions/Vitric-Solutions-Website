@@ -14,7 +14,7 @@ const VisionMission = () => {
                     <div className="relative z-10">
                         <div className="flex items-center gap-4 mb-8">
                             <div className="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center">
-                                <img src={mission} alt="Mission" className="w-8 h-8" />
+                                <img src={mission} alt="Mission" className="w-8 h-8"  loading="lazy" />
                             </div>
                             <h2 className="text-3xl font-bold text-[#1D1D1D]">Our Mission</h2>
                         </div>
@@ -39,7 +39,7 @@ const VisionMission = () => {
                     <div className="relative z-10">
                         <div className="flex items-center gap-4 mb-8">
                             <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm">
-                                <img src={vision} alt="Vision" className="w-8 h-8 brightness-0 invert" />
+                                <img src={vision} alt="Vision" className="w-8 h-8 brightness-0 invert"  loading="lazy" />
                             </div>
                             <h2 className="text-3xl font-bold text-white">Our Vision</h2>
                         </div>

@@ -1,11 +1,11 @@
-import ray from "../../assets/icon/ray.png";
-import circle from "../../assets/icon/circle.png";
-import handshake from "../../assets/icon/handshake.png";
-import spray from "../../assets/icon/spray.png";
-import earth from "../../assets/icon/earth (1).png";
-import value from "../../assets/icon/value.png";
-import industry from "../../assets/icon/industry.png";
-import speed from "../../assets/icon/speed.jpg";
+import ray from "../../assets/icon/ray.webp";
+import circle from "../../assets/icon/circle.webp";
+import handshake from "../../assets/icon/handshake.webp";
+import spray from "../../assets/icon/spray.webp";
+import earth from "../../assets/icon/earth (1).webp";
+import value from "../../assets/icon/value.webp";
+import industry from "../../assets/icon/industry.webp";
+import speed from "../../assets/icon/speed.webp";
 import StatsGlobe from "../../assets/images/StatsGlobe.gif";
 import CounterNumber from "../common/CounterNumber";
 
@@ -69,7 +69,7 @@ const StatsSection = () => {
                 src={StatsGlobe}
                 alt=""
                 className="w-full h-full object-contain"
-              />
+               loading="lazy" />
             </div>
          
 
@@ -131,7 +131,7 @@ const StatsSection = () => {
                translate-y-full opacity-0
                transition-all duration-500 ease-out
                group-hover:translate-y-0 group-hover:opacity-100"
-              />
+               loading="lazy" />
 
               {/* Content */}
               <h1 className="text-2xl lg:text-[24px] text-white font-light relative z-10">
@@ -152,7 +152,7 @@ const StatsSection = () => {
                   className="w-[90%] h-[90%] object-contain"
                   src={item.img}
                   alt=""
-                />
+                 loading="lazy" />
               </div>
             </div>
           ))}

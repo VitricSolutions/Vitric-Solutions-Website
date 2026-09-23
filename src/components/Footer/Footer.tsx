@@ -1,4 +1,4 @@
-import vitric from "../../assets/icon/vitric.png";
+import vitric from "../../assets/icon/vitric.webp";
 import { Link } from "react-router-dom";
 import { Mail, Phone, ArrowRight, Linkedin } from "lucide-react";
 
@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-6 col-span-1 md:col-span-1 lg:col-span-1">
             <Link to="/" className="block">
-              <img src={vitric} className="w-32 brightness-0 invert" alt="Vitric Solutions" />
+              <img src={vitric} className="w-32 brightness-0 invert" alt="Vitric Solutions"  loading="lazy" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Empowering enterprises with intelligent digital strategy, robust SAP solutions, and next-gen AI implementation.

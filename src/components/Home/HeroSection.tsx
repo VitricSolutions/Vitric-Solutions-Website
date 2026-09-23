@@ -1,6 +1,6 @@
-import Arrow from "../../assets/icon/arrow.png";
+import Arrow from "../../assets/icon/arrow.webp";
 import Network from "../../assets/icon/network.svg";
-import HeroImage from "../../assets/icon/hero-image.jpg";
+import HeroImage from "../../assets/icon/hero-image.webp";
 import { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { useContact } from "../../Context/Context"; // Import hook
@@ -100,19 +100,26 @@ const HeroSection = () => {
             >
               Explore Our Services
               <span className="flex items-center justify-center mt-1">
-                <img src={Arrow} alt="" className="w-6" />
+                <img src={Arrow} alt="" className="w-6"  loading="lazy" />
               </span>
             </button>
           </div>
         </div>
       </div>
       <div className="lg:w-[50%]  lg:h-full  relative bg-red-400">
-        <img src={HeroImage} className="w-full h-full" alt="" />
+        <img
+          src={HeroImage}
+          className="w-full h-full"
+          alt=""
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
         <img
           src={Network}
           className="w-[60%] left-1/2 -translate-x-1/2 lg:left-20  absolute bottom-5 sm:bottom-10 sm:right-40 lg:bottom-5 lg:right-110"
           alt=""
-        />
+         loading="lazy" />
       </div>
     </section>
   );

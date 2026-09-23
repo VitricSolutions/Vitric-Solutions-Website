@@ -114,7 +114,7 @@ const ServicesSection = () => {
                                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#D32F0F] to-red-400"></div>
 
                                     <div className="w-16 h-16 mb-8 grayscale group-hover:grayscale-0 transition-all duration-500">
-                                        <img src={service.icon} alt="" className="w-full h-full object-contain" />
+                                        <img src={service.icon} alt="" className="w-full h-full object-contain"  loading="lazy" />
                                     </div>
                                     <h3 className="text-2xl font-bold text-[#1D1D1D] group-hover:text-[#D32F0F] transition-colors mb-2 relative z-10">{service.title}</h3>
                                     <span className="text-8xl font-bold text-gray-50 absolute -bottom-2 -right-2 z-0 select-none pointer-events-none leading-none">{service.id}</span>

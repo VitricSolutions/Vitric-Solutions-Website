@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Consulting from "../../assets/images/ServiceSection/Consulting.png"
-import Products from "../../assets/images/ServiceSection/Product.png"
-import Training from "../../assets/images/ServiceSection/Training.png"
-import Talent from "../../assets/images/ServiceSection/TalentSolution.png"
+import Consulting from "../../assets/images/ServiceSection/Consulting.webp"
+import Products from "../../assets/images/ServiceSection/Product.webp"
+import Training from "../../assets/images/ServiceSection/Training.webp"
+import Talent from "../../assets/images/ServiceSection/TalentSolution.webp"
 
 export default function TechnologyServices() {
   const [active, setActive] = useState<number | null>(0);
@@ -88,7 +88,7 @@ export default function TechnologyServices() {
                   ${pos === 2 && "z-10 translate-y-0 scale-100 opacity-100 "}
                   ${pos === 3 && "z-0 opacity-100"}
                 `}
-              />
+               loading="lazy" />
             );
           })}
 
@@ -154,7 +154,7 @@ export default function TechnologyServices() {
                   src={s.image}
                   alt={s.title}
                   className="w-full h-48 object-cover rounded-lg mb-6 shadow-md"
-                />
+                 loading="lazy" />
                 <p className="text-gray-600 mb-4 text-base leading-relaxed">
                   {s.desc}
                 </p>

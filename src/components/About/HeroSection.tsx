@@ -1,8 +1,8 @@
 import { useRef, useEffect } from "react";
 import gsap from "gsap";
-import Network from "../../assets/images/aboutUs/redBag.jpeg";
+import Network from "../../assets/images/aboutUs/redBag.webp";
 import { useContact } from "../../Context/Context";
-import HeroImage from "../../assets/images/aboutUs/About_hero.jpg"; // Using existing hero image or placeholder
+import HeroImage from "../../assets/images/aboutUs/About_hero.webp"; // Using existing hero image or placeholder
 
 const HeroSection = () => {
     const { openContact } = useContact();
@@ -28,7 +28,7 @@ const HeroSection = () => {
         <section className="relative w-full bg-white overflow-hidden min-h-[85vh] flex items-center font-[Montserrat]">
             {/* Background Texture */}
             <div className="absolute top-0 right-0 w-2/3 h-full z-0 opacity-[0.03] pointer-events-none">
-                <img src={Network} alt="" className="w-full h-full object-cover" />
+                <img src={Network} alt="" className="w-full h-full object-cover"  loading="lazy" />
             </div>
 
             <div className="max-w-[85rem] mx-auto px-6 lg:px-16 w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-20 relative z-10 pt-20 lg:pt-0">
@@ -57,7 +57,7 @@ const HeroSection = () => {
                         <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 relative">
                             {/* Overlay gradient */}
                             <div className="absolute inset-0 bg-gradient-to-t from-[#00000080] to-transparent mix-blend-multiply"></div>
-                            <img src={HeroImage} alt="Enterprise Architecture" className="w-full h-full object-cover" />
+                            <img src={HeroImage} alt="Enterprise Architecture" className="w-full h-full object-cover"  loading="lazy" />
                         </div>
                     </div>
                     {/* Decorative Elements */}

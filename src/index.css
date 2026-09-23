@@ -5,56 +5,56 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .earth {
-  background-image: url("./assets/icon/earth.png");
+  background-image: url("./assets/icon/earth.webp");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .Consulting {
-  background-image: url("./assets/icon/Consulting.png");
+  background-image: url("./assets/icon/Consulting.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .SCM {
-  background-image: url("./assets/icon/SCM.png");
+  background-image: url("./assets/icon/SCM.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Talent {
-  background-image: url("/src/assets/icon/Talent.png");
+  background-image: url("./assets/icon/Talent.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grade {
-  background-image: url("./assets/icon/grade.png");
+  background-image: url("./assets/icon/grade.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .SupplyChain {
-  background-image: url("./assets/icon/supplychain.png");
+  background-image: url("./assets/icon/supplychain.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg {
-  background-image: url("./assets/icon/redbg.png");
+  background-image: url("./assets/icon/redbg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .button {
-  background-image: url("./assets/icon/border.png");
+  background-image: url("./assets/icon/border.webp");
   background-position: center;
   background-repeat: no-repeat;
 
 }
 .mainbutton {
-  background-image: url("./assets/icon/border.png");
+  background-image: url("./assets/icon/border.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;

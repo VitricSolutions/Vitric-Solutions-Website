@@ -1,7 +1,7 @@
-import vitric from "../../assets/icon/Vitric_logo.png";
-import arrow from "../../assets/icon/whiteArrow.png";
-import cross from "../../assets/icon/cross.png";
-import down from "../../assets/icon/down.png";
+import vitric from "../../assets/icon/Vitric_logo.webp";
+import arrow from "../../assets/icon/whiteArrow.webp";
+import cross from "../../assets/icon/cross.webp";
+import down from "../../assets/icon/down.webp";
 import { useContact } from "../../Context/Context"
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -39,7 +39,7 @@ const Header = () => {
       >
         <div className="w-[15%] lg:w-[15%] h-full flex items-center justify-start lg:justify-center">
           <Link to="/">
-            <img src={vitric} className={`transition-all duration-300 ${scrolled ? "w-28" : "w-32"}`} alt="Vitric Solutions" />
+            <img src={vitric} className={`transition-all duration-300 ${scrolled ? "w-28" : "w-32"}`} alt="Vitric Solutions"  loading="lazy" />
           </Link>
         </div>
 
@@ -57,7 +57,7 @@ const Header = () => {
           <div className="group relative h-full flex items-center cursor-pointer">
             <div className={`flex items-center gap-1 py-2 transition-colors duration-300 ${isActive("/services") ? "text-[#D32F0F]" : "group-hover:text-[#D32F0F]"}`}>
               <span className={isActive("/services") ? "font-bold" : ""}>Consulting Services</span>
-              <img src={down} className={`w-3 opacity-60 transition-transform duration-300 group-hover:rotate-180 group-hover:opacity-100 ${isActive("/services") ? "opacity-100" : ""}`} alt="" />
+              <img src={down} className={`w-3 opacity-60 transition-transform duration-300 group-hover:rotate-180 group-hover:opacity-100 ${isActive("/services") ? "opacity-100" : ""}`} alt=""  loading="lazy" />
             </div>
             {/* Active Indicator Line for Dropdown Parent */}
             <span className={`absolute bottom-6 left-0 w-full h-0.5 bg-[#D32F0F] transform origin-left transition-transform duration-300 ${isActive("/services") ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"}`}></span>
@@ -122,7 +122,7 @@ const Header = () => {
             className="group relative px-6 py-3 bg-[#D32F0F] text-white text-sm font-medium rounded overflow-hidden shadow-lg shadow-red-500/20 hover:shadow-red-500/40 transition-all duration-300 active:scale-95 flex items-center gap-2"
           >
             <span className="relative z-10">Let's Connect</span>
-            <img src={arrow} className="relative z-10 w-4 transition-transform duration-300 group-hover:translate-x-1" alt="" />
+            <img src={arrow} className="relative z-10 w-4 transition-transform duration-300 group-hover:translate-x-1" alt=""  loading="lazy" />
 
             {/* Hover Shine Effect */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out"></div>
@@ -137,7 +137,7 @@ const Header = () => {
         )}
         {menuOpen && (
           <button className="lg:hidden text-2xl text-[#1D1D1D]" onClick={() => setMenuOpen(false)}>
-            <img src={cross} className="w-6" alt="" />
+            <img src={cross} className="w-6" alt=""  loading="lazy" />
           </button>
         )}
       </div>
@@ -153,7 +153,7 @@ const Header = () => {
           <div className="w-full py-3 border-b border-gray-50">
             <div className="flex items-center justify-between w-full" onClick={() => setConsultingOpen(!consultingOpen)}>
               <h1 className={`text-lg font-medium ${isActive("/services") ? "text-[#D32F0F]" : "text-gray-700"}`}>Consulting Services</h1>
-              <img src={down} className={`w-4 transition-transform duration-300 opacity-60 ${consultingOpen ? 'rotate-180' : ''}`} alt="" />
+              <img src={down} className={`w-4 transition-transform duration-300 opacity-60 ${consultingOpen ? 'rotate-180' : ''}`} alt=""  loading="lazy" />
             </div>
 
             {/* Mobile Dropdown Items */}
@@ -198,7 +198,7 @@ const Header = () => {
               className="w-full text-base text-white py-4 flex items-center justify-center gap-3 bg-[#D32F0F] rounded shadow-lg shadow-red-100 active:scale-95 transition-transform"
             >
               <h1>Let's Connect</h1>
-              <img src={arrow} className="w-4" alt="" />
+              <img src={arrow} className="w-4" alt=""  loading="lazy" />
             </button>
           </div>
         </div>
