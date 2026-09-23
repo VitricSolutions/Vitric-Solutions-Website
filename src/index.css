@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.earth {
+  background-image: url("./assets/icon/earth.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.Consulting {
+  background-image: url("./assets/icon/Consulting.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SCM {
+  background-image: url("./assets/icon/SCM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Talent {
+  background-image: url("/src/assets/icon/Talent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grade {
+  background-image: url("./assets/icon/grade.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SupplyChain {
+  background-image: url("./assets/icon/supplychain.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg {
+  background-image: url("./assets/icon/redbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button {
+  background-image: url("./assets/icon/border.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.mainbutton {
+  background-image: url("./assets/icon/border.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: 100% auto; /* ✅ only X-direction scale */
+}
+.button:hover {
+  background-image: none;
+  background: linear-gradient(to bottom, #fb1212, #d32f0f);
+  transition: color 0.3s ease;
+}
+.mainbutton:hover {
+  background-image: none;
+  background: linear-gradient(to bottom, #fb1212, #d32f0f);
+  transition: color 0.3s ease;
+}
